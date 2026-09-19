@@ -1,0 +1,22 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 虚拟环境和编辑器临时文件
+.venv/
+venv/
+*.tmp
+*.log
+
+# 模型训练和推理生成物
+experiments/**/predictions/*.jsonl
+experiments/**/results/*.csv
+experiments/**/results/*.json
+experiments/**/checkpoints/
+experiments/**/codebert/checkpoints/
+
+# 保留prepared数据和样本报告用于复现
+!experiments/**/prepared/
+!experiments/**/prepared/*.jsonl
+!experiments/**/prepared/*.json

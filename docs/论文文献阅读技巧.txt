@@ -1,0 +1,67 @@
+Problem:
+解决什么问题？
+
+Gap:
+现有方法为什么不行？
+
+Method:
+到底新了什么？
+
+Evidence:
+怎么证明？
+
+Limitation:
+哪里还不行？
+
+发现问题
+   ↓
+读论文
+   ↓
+发现现有方法不够
+   ↓
+提出假设
+   ↓
+做实验
+   ↓
+实验失败
+   ↓
+分析为什么
+   ↓
+修改方法
+   ↓
+再实验
+   ↓
+得到结论
+   ↓
+发现新问题
+   ↓
+继续研究
+
+待阅读的文献：
+Devign
+LineVul
+VulSim
+PrimeVul
+Vul-RAG
+LLMxCPG
+ReVul-CoT
+MulVul
+以及你后续检索到的 Patch/RAG/CPG 最新论文
+方式：
+| 项目         | 内容   |
+| ---------- | ---- |
+| Problem    | 解决什么 |
+| Dataset    | 用什么  |
+| Model      | 用什么  |
+| Retrieval  | 有没有  |
+| CPG        | 有没有  |
+| Patch      | 有没有  |
+| Baseline   | 什么   |
+| Metrics    | 什么   |
+| Ablation   | 什么   |
+| Limitation | 什么   |
+| 你能否复现      | 能/不能 |
+| 与你的差异      | 什么   |
+Limitations 尤其重要。
+
+因为你的创新点往往就是从这里找出来的。

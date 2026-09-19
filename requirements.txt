@@ -1,0 +1,10 @@
+# 建议使用Python 3.10或Python 3.11。
+# PyTorch请根据本机CUDA版本安装对应版本。
+torch>=2.2,<3
+transformers>=4.45,<6
+accelerate>=0.34,<2
+datasets>=2.20,<6
+scikit-learn>=1.4,<2
+pandas>=2.0,<4
+numpy>=1.24,<3
+tqdm>=4.66,<5

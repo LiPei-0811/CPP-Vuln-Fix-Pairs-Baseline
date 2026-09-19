@@ -1,0 +1,38 @@
+{
+  "experiment_name": "面向真实C/C++漏洞—修复对的直接检测与修复敏感性基线实验",
+  "experiment_slug": "cpp_vulnerability_pair_baseline",
+  "output_dir": "./experiments/cpp_vulnerability_pair_baseline",
+  "primevul_files": [
+    "./datasets/primevul_test.jsonl"
+  ],
+  "paired_files": [
+    "./datasets/primevul_test_paired.jsonl"
+  ],
+  "patched_files": [],
+  "sample_seed": 20260916,
+  "sample_counts": {
+    "patched": 100,
+    "benign": 200,
+    "vulnerable": 100
+  },
+  "priority_cwes": [
+    "CWE-787",
+    "CWE-125",
+    "CWE-416",
+    "CWE-190",
+    "CWE-20"
+  ],
+  "model_name": "./models/Qwen/Qwen2.5-Coder-7B-Instruct",
+  "prompt_file": "./prompts/direct_detection_zh.txt",
+  "device_map": "auto",
+  "max_input_chars": 24000,
+  "max_new_tokens": 384,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "generation_seed": 20260916,
+  "trust_remote_code": false,
+  "prompt_version": "direct-v2-no-cwe-anchor",
+  "location_k": 5,
+  "invalid_prediction_policy": "error",
+  "require_complete_predictions": true
+}
